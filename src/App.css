@@ -1,0 +1,18 @@
+/* .logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+
+.container-of-sections{
+  border: 2px solid red;
+}
+

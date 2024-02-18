@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400&display=swap');
+/* *{
+    border: 1px solid blue;
+} */
+.main{
+    margin-top: 100px;
+
+}
+
+.light .main .left-sec-main button{
+    width: 10rem;
+    padding: 0.9rem;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.05rem;
+    cursor: pointer;
+    opacity: 0.7;
+    border-radius: 7px;
+    transition: 0.15s;
+    /* color: rgb(255, 255, 255); */
+    color: black;
+    border: 1px solid rgb(100, 97, 97);
+
+    
+}
+
+.dark .main .left-sec-main button{
+    background-color: rgba(36, 37, 46, 1);
+    width: 10rem;
+    padding: 0.9rem;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.05rem;
+    cursor: pointer;
+    opacity: 0.7;
+    border-radius: 7px;
+    transition: 0.15s;
+
+}
+
+.dark .main .left-sec-main button:hover{
+    opacity: 1;
+}
+.light .main .left-sec-main button:hover{
+    opacity: 1;
+}
+
+.dark .main .left-sec-main .active{
+    opacity: 1;
+    scale: 1.02;
+    background-color: rgb(78, 99, 221);
+    border: none;
+}
+
+
+
+
+.light .main .left-sec-main .active{
+    opacity: 1;
+    scale: 1.02;
+    background-color: rgb(49, 48, 48);
+    border: none;
+    color: white;
+}
+
+
+
+
+ 
+.active{
+    opacity: 1;
+}
+
+.border{
+    border: 1px solid blue;
+}
+
+
+.main{
+    display: flex;
+    gap: 60px;
+    align-items: start;
+}
+
+
+.right-sec-main{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap:  wrap;
+    gap: 30px;
+    justify-content: left;
+}
+
+@media (max-width: 1173px){
+    .right-sec-main{
+        justify-content: center;
+    }
+}
+@media (max-width: 1532px){
+    .right-sec-main{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 690px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+   .main .left-sec-main{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .main .left-sec-main button{
+        width: 6rem;
+        padding: 0.6rem;
+    } 
+
+
+}
+
+
+.left-sec-main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+button{
+    all: unset;
+}
+
+
+
+.dark .card{
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+ border-radius: 10px;
+border: 1px solid rgba(107, 118, 180, 0.473);
+ /* background-color: red; */
+ transition: 0.2s;cursor: pointer;
+ background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+
+}
+.light .card{
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+ border-radius: 10px;
+border: 1px solid rgba(107, 118, 180, 0.473);
+ /* background-color: red; */
+ transition: 0.2s;cursor: pointer;
+background-color: rgb(247, 243, 243);
+}
+
+
+.card:hover{
+    border: 1px solid var(--blue);
+    rotate: 1.3deg;
+    scale: 1.02;
+}
+.card:active{
+    scale: 1;
+}
+
+.img{
+    width: 266px;
+}
+
+.img img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.box-card{
+    width: 266px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.main-card-sec{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.main-card-sec p{
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 17px;
+    font-family: 'Noto Sans', sans-serif;
+    opacity: 0.7;
+    font-weight: 300;
+}
+
+.main-card-sec h2{
+    opacity: 0.8;
+    font-size: 21px;
+}
+
+.links-card{
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.left-sec-card-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.left-sec-card-links svg{
+    opacity: 0.7;
+
+}
+.left-sec-card-links svg:hover{
+    scale: 1.06;
+    opacity: 0.8;
+}
+
+.left-sec-card-links svg:active{
+    scale: 1;
+    
+}
+
+.right-sec-card-links{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(97, 102, 179);
+    cursor: pointer;
+    transition: 0.1s;
+    opacity: 0.8;
+    margin-right: 10px;
+}
+
+.right-sec-card-links:hover{
+    opacity: 1;
+    color: rgb(55, 63, 184);
+
+}
+.right-sec-card-links:active{
+    opacity: 0.8;
+}
+.right-sec-card-links span:last-child{
+    margin-top: 5px;
+}
+
+.title{
+    text-transform: capitalize;
+}

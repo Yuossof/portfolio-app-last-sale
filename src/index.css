@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400&display=swap');
+
+
+
+:root {
+    --primary: #000;
+    --secondary: #18181B;
+    --border: rgba(63, 63, 70, 0.2);
+    --blue: rgb(93, 188, 252);
+
+}
+
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after{box-sizing: inherit;}
+
+
+.light{
+    --primary: rgb(226, 214, 214);
+    --secondary: #ffffff;
+    --border: rgba(107, 107, 112, 0.2);
+    color: #000;
+
+}
+
+body{
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.container{
+    width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--secondary);
+    border: 2px solid var(--border);
+    padding: 0 70px;
+  }
+
+
+  @media (max-width: 800px){
+    .container{
+        width: 90%;
+    }
+  }
+
+  
+  @media (max-width: 500px){
+    .container{
+        width: 100%;
+    }
+  }
+
+  .divider{
+    border-bottom: 1px solid var(--border);
+    margin: 3rem 0;
+  }
+
+ 
+
+ ::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff5e;
+  border-radius: 3px;
+
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dddcdc;
+  border-radius: 3px;
+}
+
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #acaaaa;
+}
+
+.topbtn{
+  position: fixed;
+  bottom: 230px;
+  right: 220px;
+  background-color: blueviolet;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}

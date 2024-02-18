@@ -1,0 +1,99 @@
+
+.hero{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    
+}
+.VerifiedIcon{
+    color: rgb(78, 116, 221);
+}
+.left-section-av-p{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.parent-avatar{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+.descrip{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.descrip h1{
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Noto Sans', sans-serif;
+    opacity: 0.7;
+}
+.dark .descrip p{
+    font-size: 14px;
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+    opacity: 0.7;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+}
+.light .descrip p{
+    font-size: 14px;
+    line-height: 1.7rem;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+}
+.avatar{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid rgb(236, 172, 93);
+    padding: 2px;
+    box-shadow: 2px 2px 40px rgba(136, 135, 135, 0.5) inset;
+}
+
+
+
+.cont-of-descrip{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.socialMedia{
+    display: flex;
+    gap: 25px;
+}
+.socialMedia a{
+    text-decoration: none;
+    color: #A1A1AA;
+    transition: 0.2s;
+}
+
+.socialMedia a:hover{
+    color: #c6c6d3;
+    scale: 1.1;
+}
+
+
+.socialMedia a:active{
+    scale: 1;
+    color: #A1A1AA;
+}
+
+.right-section-animation-photo {
+    width: 500px;
+    height: 500px;
+}
+
+@media (max-width: 1100px){
+    .right-section-animation-photo{
+        display: none;
+    }
+}
