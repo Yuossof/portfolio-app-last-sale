@@ -4,13 +4,13 @@ const Footer = () => {
     return (
             <div className='footer'>
                 <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">WhatsApp</a></li>
-                    <li><a href="">Masenger</a></li>
-                    <li><a href="">RateMe</a></li>
+                    <li><a href="">عني</a></li>
+                    <li><a href="">واتساب</a></li>
+                    <li><a href="">ماسنجر</a></li>
+                    <li><a href="">قيمني</a></li>
                 </ul>
 
-                <p>© 2024 Spencer Sharp. All rights reserved.</p>
+                <p>© 2024 unknown none. All rights reserved.</p>
             </div>
     );
 }

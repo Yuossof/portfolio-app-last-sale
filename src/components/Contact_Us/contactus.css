@@ -121,6 +121,7 @@
     min-width: 300px;
     max-width: 700px;
     transition: 0.2s;
+    margin-left: 15px;
 
 }
 .light .message-sec textarea{
@@ -140,6 +141,7 @@
     max-width: 700px;
     transition: 0.2s;
     max-height: 500px;
+    margin-left: 15px;
 
 }
 
@@ -211,9 +213,13 @@
         justify-content: center;
         align-items: center;
     }
-    .SendBtn{
+    .light .SendBtn{
         text-align: center;
-        width: 300px;
+        width: 330px;
+    }
+    .dark .SendBtn{
+        text-align: center;
+        width: 330px;
     }
     .title-of-contactus{
         justify-content: center;
@@ -224,6 +230,7 @@
         text-align: center;
     }
 }
+
 
 
 

@@ -31,19 +31,19 @@ const Header = () => {
               <div className="content-of-center-sec">
                 <ul>
                   <a>
-                    <li>Home</li>
+                    <li>الرئيسية</li>
                   </a>
                   <a>
-                    <li>Skills</li>
+                    <li>مهاراتي</li>
                   </a>
                   <a href="#pr">
-                    <li>Projects</li>
+                    <li>مشاريعي</li>
                   </a>
                   <a href="#cn">
-                    <li>ContactUs</li>
+                    <li>تواصل معي</li>
                   </a>
                   <a href="#rt">
-                    <li>RateMe</li>
+                    <li>قيمني</li>
                   </a>
                 </ul>
               </div>
@@ -57,8 +57,8 @@ const Header = () => {
               }}
               className="menu"
             >
-              <KeyboardArrowLeftIcon sx={{ color: "white" }} />
-              <button>menu</button>
+              <KeyboardArrowLeftIcon />
+              <button>القائمة</button>
             </div>
             <div
               onClick={() => {
@@ -95,15 +95,23 @@ const Header = () => {
             </span>
             <div className="box">
               <ul>
-                <li>Home</li>
-                <div className="border2"></div>
-                <li>Skills</li>
-                <div className="border2"></div>
-                <li>Projects</li>
-                <div className="border2"></div>
-                <li>CallMe</li>
-                <div className="border2"></div>
-                <li>More</li>
+                <a>
+                  <li>الرئيسية</li>
+                </a>
+                <a>
+                  <li>مهاراتي</li>
+                </a>
+                <a onClick={()=>{
+                  setFixedMenue(false)
+                }} href="#pr">
+                  <li>مشاريعي</li>
+                </a>
+                <a onClick={()=>{setFixedMenue(false)}} href="#cn">
+                  <li>تواصل معي</li>
+                </a>
+                <a onClick={()=>{setFixedMenue(false)}} href="#rt">
+                  <li>قيمني</li>
+                </a>
               </ul>
             </div>
           </div>

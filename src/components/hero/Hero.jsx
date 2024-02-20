@@ -26,12 +26,12 @@ const Hero = () => {
         <div className="cont-of-descrip">
           <div className="descrip">
             <h1>
-            Passionate web developer <br />  creating ,seamless<br />  digital solutions
+            مطور ويب شغوف بإنشاء<br /> حلول رقمية سلسة
             </h1>
             <p>
-            As a seasoned web developer, I blend creativity and precision to build captivating <br />
-             online platforms.With a keen eye for detail and a passion for innovation,<br />
-              I turn visions into functional realities, ensuring seamless user experiences.
+            باعتباري مطور ويب متمرسًا، فأنا أمزج بين الإبداع والدقة لبناء موقع آسر <br />
+            المنصات عبر الإنترنت. مع الاهتمام الشديد بالتفاصيل والشغف بالابتكار،<br />
+              أقوم بتحويل الرؤى إلى حقائق وظيفية، مما يضمن تجارب مستخدم سلسة.
             </p>
           </div>
           <div className="socialMedia">

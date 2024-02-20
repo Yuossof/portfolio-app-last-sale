@@ -88,7 +88,7 @@ const MainCont = () => {
                     </span>
                   </div>
                   <div className="right-sec-card-links">
-                    <span>more</span>
+                    <span>المزيد</span>
                     <span>
                       <EastIcon sx={{ fontSize: "17px" }} />
                     </span>

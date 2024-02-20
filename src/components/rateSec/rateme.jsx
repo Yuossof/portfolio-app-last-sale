@@ -5,7 +5,7 @@ const Rateme = () => {
     <div className="contOfRate" id="rt">
       <div className="d">
         <div>
-          <span className="rateText">Rate Me</span>
+          <span className="rateText">قيمني</span>
         </div>
         <div className="rating">
           <input

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 
 .hero{
     display: flex;
@@ -30,7 +31,7 @@
 .descrip h1{
     font-weight: 700;
     font-size: 35px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Cairo", sans-serif;
     opacity: 0.7;
 }
 .dark .descrip p{
@@ -38,16 +39,16 @@
     line-height: 1.7rem;
     letter-spacing: 1px;
     opacity: 0.7;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Cairo", sans-serif;
     font-weight: 300;
 }
 .light .descrip p{
     font-size: 14px;
     line-height: 1.7rem;
     letter-spacing: 1px;
-    opacity: 0.9;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 300;
+    opacity: 0.7;
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
 }
 .avatar{
     width: 90px;

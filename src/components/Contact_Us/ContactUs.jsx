@@ -7,6 +7,8 @@ import EmailIcon from "@mui/icons-material/Email";
 import Lottie from "lottie-react";
 import animationEmail from '../../../public/animation/contactUsAnimat.json'
 
+
+
 const ContactUs = () => {
   return (
 <div > 
@@ -17,24 +19,23 @@ const ContactUs = () => {
               <span>
                 <EmailIcon />
               </span>
-              <span>Contact Us</span>
+              <span>اتصل بنا</span>
             </h1>
             <p>
-              
-              Contact us for more information and Get notified when I publish
-              something<br /> new.
+            اتصل بنا للحصول على مزيد من المعلومات وإخطارنا عندما أنشر شيئًا <br /> جديدًا.
             </p>
           </div>
     
           <div className="forms">
+
             <form className="form-email">
               <div className="email-address">
-                <label htmlFor="email">Email Address:</label>
+                <label htmlFor="email">البريد الإلكتروني:</label>
                 <input type="email" id="email" placeholder="Email Adress" />
               </div>
     
               <div className="message-sec">
-                <label htmlFor="message">Your Message:</label>
+                <label htmlFor="message">اكتب رسالتك :</label>
                 <textarea
                   id="message"
                   placeholder="Message"
@@ -44,12 +45,13 @@ const ContactUs = () => {
               <button className="SendBtn" onClick={(eo)=>{
                 eo.preventDefault()
               }}>
-                <span>Send</span>
+                <span>ارسال</span>
                 <span><SendIcon /></span>
               </button>
     
             </form>
             <div  className="animation-forms"><Lottie loop={true} animationData={animationEmail}/></div>
+
           </div>
         </div>
   </div>
